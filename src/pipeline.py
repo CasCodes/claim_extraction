@@ -1,0 +1,61 @@
+
+from sentence_rank import load_nlp, rank
+from claim_classifier import *
+
+#text = "Compatibility of systems of linear constraints over the set of natural numbers. Criteria of compatibility of a system of linear Diophantine equations, strict inequations, and nonstrict inequations are considered. Upper bounds for components of a minimal set of solutions and algorithms of construction of minimal generating sets of solutions for all types of systems are given. These criteria and the corresponding algorithms for constructing a minimal supporting set of solutions can be used in solving all the considered types systems and systems of mixed types."
+text = """
+If the worst happens, Taras, 23, Vladyslav, 21, and their commander, Olexiy, 39, are well aware that the Ukrainian government will deny any knowledge of them. In western capitals, there is a collective shudder at the very thought of them.
+They are members of the Bratstvo battalion, a volunteer group of Ukrainian special forces, taking the fight against Vladimir Putin beyond the frontlines of the war in Ukraine, past the occupied areas of their country – and deep into Russia.
+Their work ranges from the kidnapping of senior Kremlin officials, to the destruction of key military infrastructure and the downing of enemy aircraft on Russian territory.
+It might seem odd for a battalion such as theirs to allow their stories to be heard in public. But that is to misunderstand their purpose. In everything they do, there is a single message they want to send. “It is very easy for us to cross the Russian border,” says Vladyslav, the youngest of the three, with a smile.
+The volunteers of the Bratstvo, Ukrainian for brotherhood, have a peculiar status, technically independent from Ukraine’s army but operating side by side with the official forces. Their arm’s-length status offers deniability.
+Olexiy is in “intelligence”, he says, but the battalion recruits mainly civilians, or plucks the brightest from other voluntary battalions. He says he understands why their work must remain apart. The reasoning is nevertheless hard for them all to swallow.
+Ukrainian saboteurs Taras, Olexiy and Vladyslav in Taras Shevchenko Park in central Kyiv.
+Ukrainian saboteurs Taras, Olexiy and Vladyslav in Taras Shevchenko Park in central Kyiv. Photograph: Ed Ram/The Guardian
+It comes down to the west’s nervousness at the thought of Ukraine having the capacity to hit Russia in Russia, as highlighted by the protracted debate over Germany’s provision of Leopard 2 tanks, and the refusal of the US and others to supply F16 fighter jets.
+Much of that anxiety is probably linked to the Kremlin’s threat to use nuclear weapons if the “very existence of the state is put under threat”.
+“It turns out that Russians can go to Ukrainian territory, but Ukrainians cannot go into Russia,” Olexiy says.
+The Bratstvo volunteers are not deterred. They insist it is vital for the Russian high command to feel the heat of battle on their own territory.
+Wearing jeans, jumpers and hoodies, they are drinking coffee in Kyiv’s Taras Shevchenko Park as they tell of their adventures, while on a break from training, planning and missions. The only hint of who they are is the handgun on Vladyslav’s hip.
+Because of their unofficial status, their stories could not be independently verified but they are convincing and credible. They are also extraordinary in their daring.
+The second eldest of the three men, Taras, says he returned two weeks ago from what he described as a straightforward operation. “Our group needed to bring a certain amount of explosives to the territory of Russia and leave them in a certain place,” he says. “I don’t know for what and whom this explosive was intended. But I know for sure that some people in Russia are ready to help Ukrainians.”
+But six weeks ago, he says, he completed the most successful operation yet. It had a jittery start. “We had a task to destroy a Russian helicopter transporting high-ranking officials of the Russian ministry of internal affairs,” says Taras. “On the first time in, bad weather prevented the laser sight from accurately aiming to hit the target. In addition, we had internal problems within the group, arguments, so we entered Russian territory but turned back, took into account our mistakes … and in a week we made a second attempt.”
+The taskforce of five men set off at 7am, easily stalking through the forests and fields, to cross into Russia. “We walked all day,” says Taras. “Then we spent the night at the location and at 9am we heard a helicopter. I had a small reconnaissance drone with me and it confirmed it was the same helicopter.
+“We fired from a portable anti-aircraft missile system at a helicopter from a distance of 4km. Unfortunately, we didn’t see the hit as we were so far away, but we heard the explosion. And then we quickly fled from our positions. We left behind the tripod used for the portable anti-aircraft missile system. We returned twice as fast.”
+Whether the Kremlin officials in the helicopter were killed or not, for Taras it was a successful mission, achieving the central purpose of the battalion’s initiatives.
+“We showed we can enter the territory of Russia and show the Russians that Ukrainians can act,” he says. “After the Russians find out that saboteurs are working on their territory, they need to move a lot of soldiers to find these saboteurs. It is very demoralising to the enemy. The helicopter was for the Russian leadership. And the very fact that Ukrainian saboteurs are shooting at Russian commanders is already a point of tension for Russians. This makes the Russian command nervous.”
+The last operation in Russia in which Vladyslav took part was a month ago in the region around the city of Belgorod, where a number of ammunition stores have exploded in recent months.
+skip past newsletter promotion
+after newsletter promotion
+The small taskforces, often just four or five soldiers, work out where the safe routes lie into Russia by examining the movement of livestock, or taking the advice of those who smuggled contraband before the war.
+Vladyslav and his fellow fighters were tasked with “capturing or killing one of the high-ranking officers of the FSB”, the Russian security services.
+“He worked close to the border with Ukraine, but on the territory of Russia,” says Vladyslav. “We had the route of this Russian officer’s car and we decided to set up an ambush.”
+They were in position for hours but the car did not arrive, and the primary goal had to be abandoned as day broke. They needed to get out but they faced the challenge of breaking back into Ukraine, past the watching Russian forces gathered at the border.
+“We met a border post of Russian border guards,” Vladyslav recalls. “We engaged, we were four on four. We killed three Russians and slightly wounded one. We captured him, took him to Ukrainian territory and handed him over to the Ukrainian military.”
+The Ukrainians had survived another day with just one of their group suffering a gunshot wound to his arm.
+But it does not always go to plan. On Christmas Day, four of their colleagues, Yuriy Horovets, 34, Maksym Mykhaylov, 32, Taras Karpyuk, 39 and the rookie of the mission, 19-year-old Bohdan Lyagov, were killed 12.5km (seven miles) into Russia’s Bryansk region, north-east of Ukraine.
+The first Olexiy knew of the disaster was when photographs of their dead colleagues lying in the snow emerged on Russian Telegram channels on 26 December. The Kremlin-supporting media outlet, RIA Novosti, reported the men were carrying “SIG Sauer submachine guns, communication and navigation devices, and four bombs with a total capacity of about 40 kg in TNT equivalent”.
+They were, the FSB, said, set on carrying out “sabotage and terrorist acts”. The FSB published a video showing the bodies, spread between the pine trees of a Russian forest. “Everyone was shocked,” Olexiy says. “They were our best fighters.”
+The manner of their deaths remains unclear. Their bodies have not been recovered. The three older men of the group were hiking champions and veterans of this kind of work, having operated before on reconnaissance missions in the occupied Chornobyl region, among others.
+“The guide led them to a certain distance from the border of Ukraine deep into the territory of Russia and left them there,” Olexiy recalls. “We were very calm for these guys and were sure everything would be fine. We do not know the details, but we assume that they accidentally entered the second line of the Russian defence. And in front of it, the Russians laid mines in the ground.”
+Ukrainian special forces prepare for mission that ended in their deaths – video
+The men were filmed in the moments before they set out on their mission, putting on their “snow camo” uniform, and readying their weapons. “I asked them, ‘How are you feeling?’’, says Olexiy. “And Yuriy answered: ‘This is my dream. I’m doing the operation I’ve dreamed about all my life’. All these guys were very bright and very motivated.”
+It was a hard reminder of the risks they take. Asked whether their parents know about their work, the two younger men, in their early 20s, exhale loudly and laugh. “My parents only know that I am currently at war,” says Vladyslav. “But you have to understand that when we plan our operations, very few people know about it. Information about the operation can be passed to the enemy. The soldiers nearby may say something to their colleagues and the Russians may find out about it. It is better for our parents not to know what we do now.”
+Taras adds: “Our operations are actually twice as safe as those performed by the Ukrainian armed forces. It seems that this is a very dangerous job, but we are very seriously preparing for it.”
+The importance of their role, for all that it is denied by the government in Kyiv and disliked by western capitals, is clear to them.
+“[Western readers] may expect from us that we are going to blow up the Kremlin, but so far this is not the case,” says Taras. “My opinion is that you should start with small tasks and then move on to more complex ones. A friend of mine has a saying: ‘To destroy an enemy military base, you must first blow up the doghouse.’”
+""".replace("\n", "")
+
+# load models
+nlp = load_nlp()
+classifier = load_classifier()
+
+top_sents = rank(text, 
+    nlp,
+    resolution=10, # how many phrases are used for unit vector
+    max_senteces=2 # how many sentences are returned
+)
+
+claims = predict_claims(top_sents, classifier)
+
+print(claims, "\n\n", len(claims))
