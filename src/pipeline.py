@@ -53,7 +53,7 @@ classifier = load_classifier()
 top_sents = rank(text, 
     nlp,
     resolution=10, # how many phrases are used for unit vector
-    max_senteces=2 # how many sentences are returned
+    max_senteces=4 # how many sentences are returned
 )
 
 claims = predict_claims(top_sents, classifier)

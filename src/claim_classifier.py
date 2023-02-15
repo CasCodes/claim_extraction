@@ -3,7 +3,8 @@ from transformers import pipeline
 def load_classifier():
     classifier = pipeline(
         "text-classification", 
-        model="Nithiwat/mdeberta-v3-base_claim-detection")
+        model="Nithiwat/bert-base_claimbuster"
+    )
     return classifier
 
 def predict_claims(sents, classifier):
@@ -13,5 +14,5 @@ def predict_claims(sents, classifier):
 
         if pred["label"] == "LABEL_1":
             claims.append(sent)
-
+ 
     return claims
